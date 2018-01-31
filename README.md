@@ -2,10 +2,12 @@
 <h2>Функции</h2>
     <ul>
         <li><span><b>Функция min</b></span>
-             <p>Задача «Hello World» для функций :) </br>Напишите функцию min(a,b), которая возвращает меньшее из чисел a,b.
+             <p>Задача «Hello World» для функций :) </br>Напишите функцию min(a,b), которая возвращает меньшее из чисел a,b.</p>
+             <span>Результат: </span><a href="/main/Basics of JavaScript/min(a,b)">min(a,b)</a>
         </li>
         <li><span><b>Функция pow(x,n)</b></span>
               <p>Напишите функцию pow(x,n), которая возвращает x в степени n. Иначе говоря, умножает x на себя n раз и возвращает результат.</p>
+              <span>Результат: </span><a href="/main/Basics of JavaScript/pow(x,n)">pow(x,n)</a>
         </li>
     </ul>
 
