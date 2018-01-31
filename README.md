@@ -6,6 +6,7 @@
         <span>Результат: </span><a href="/main/Basics of JavaScript/SumTo(n)">SumTo(n)</a>
      </li>
      <li><span><b>Напишите функцию factorial(n), которая возвращает факториал числа n!, используя рекурсивный вызов.</b></span>
+        <p>Факториа́л числа – это число, умноженное на «себя минус один», затем на «себя минус два» и так далее, до единицы. Обозначается n!</p>
        <span>Результат: </span><a href="/main/Basics of JavaScript/factorial(n)">factorial(n)</a>
      </li>
      <li><span><b>Напишите функцию fib(n), которая возвращает n-е число Фибоначчи.</b><span>
