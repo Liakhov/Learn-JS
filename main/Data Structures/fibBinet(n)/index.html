@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bine</title>
+  </head>
+  <body>
+
+  </body>
+  <script type="text/javascript">
+    function fibBinet(n){
+
+      var phi = (1 + Math.sqrt(5))/2;
+
+      return Math.round(Math.pow(phi, n)/Math.sqrt(5));
+    }
+
+    function fib(n) {
+      var a = 1,
+      b = 0,
+      x;
+
+      for (i = 0; i < n; i++) {
+          x = a + b;
+          a = b
+          b = x;
+        }
+        return b;
+      }
+
+      alert( fibBinet(8) + ' ' + fib(8) );
+
+  </script>
+</html>
