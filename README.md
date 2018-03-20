@@ -37,8 +37,7 @@
       <span>Результат: </span><a href="/main/Data Structures/fibBinet(n)">fibBinet(n)</a>
     </li>
     <li>
-        <span><b>Случайное целое от min до max.</b></span>
-    <p>Напишите функцию randomInteger(min, max) для генерации случайного целого числа между min и max, включая min,max как возможные значения.</p>
+    <span><b>Напишите функцию randomInteger(min, max) для генерации случайного целого числа между min и max, включая min,max как возможные значения.</b></span>
     <p>Любое число из интервала min..max должно иметь одинаковую вероятность.</p>
     <span>Результат: </span><a href="/main/Data Structures/randomInteger(min, max)">randomInteger(min, max)</a>
     </li>
