@@ -41,4 +41,11 @@
     <p>Любое число из интервала min..max должно иметь одинаковую вероятность.</p>
     <span>Результат: </span><a href="/main/Data Structures/randomInteger(min, max)">randomInteger(min, max)</a>
     </li>
+    <li>
+        <span><b>Напишите функцию ucFirst(str), которая возвращает строку str с заглавным первым символом</b></span>
+        <p><code>ucFirst("вася") == "Вася";</code></p>
+        <p><code>ucFirst("") == ""; // нет ошибок при пустой строке</code></p>
+        <p>P.S. В JavaScript нет встроенного метода для этого. Создайте функцию, используя toUpperCase() и charAt()</p>
+         <span>Результат: </span><a href="/main/Basics of JavaScript/ucFirst(str)">ucFirst(str)</a>
+    </li>
   </ul>
