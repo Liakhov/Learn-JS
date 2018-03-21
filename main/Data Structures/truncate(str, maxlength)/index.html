@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+
+
+    <script>
+
+      function truncate(str, maxlength){
+        if( str.length > maxlength){
+          var a = str.slice(0, maxlength - 3);
+          return a + " . . .";
+        }
+        return str;
+      }
+
+      alert(truncate('Василь прийшов додому і почав переодягати після тяжкого робочого дня', 10));
+      alert(truncate('Василь прийшов', 20));
+
+    </script>
+  </body>
+</html>
