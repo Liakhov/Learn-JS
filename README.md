@@ -46,6 +46,6 @@
         <p><code>ucFirst("вася") == "Вася";</code></p>
         <p><code>ucFirst("") == ""; // нет ошибок при пустой строке</code></p>
         <p>P.S. В JavaScript нет встроенного метода для этого. Создайте функцию, используя toUpperCase() и charAt()</p>
-         <span>Результат: </span><a href="/main/Basics of JavaScript/ucFirst(str)">ucFirst(str)</a>
+         <span>Результат: </span><a href="/main/Data Structures/ucFirst(str)">ucFirst(str)</a>
     </li>
   </ul>
