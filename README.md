@@ -72,8 +72,8 @@
 
      Например:
      
-              truncate("Вот, что мне хотелось бы сказать на эту тему:", 20) = "Вот, что мне хоте..."
-              truncate("Всем привет!", 20) = "Всем привет!"
+           truncate("Вот, что мне хотелось бы сказать на эту тему:", 20) = "Вот, что мне хоте..."
+           truncate("Всем привет!", 20) = "Всем привет!"
      
      Результат: [truncate(str, maxlength)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/truncate(str%2C%20maxlength))
  
