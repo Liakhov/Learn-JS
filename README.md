@@ -20,11 +20,11 @@
   
   + **Напишите функцию sumTo(n), которая для данного n вычисляет сумму чисел от 1 до n**
     
-    1. С использованием цикла.
+    + 1. С использованием цикла.
     
-    2. Через рекурсию, т.к. sumTo(n) = n + sumTo(n-1) для n > 1.</br> 
+    + 2. Через рекурсию, т.к. sumTo(n) = n + sumTo(n-1) для n > 1.</br> 
     
-    3. С использованием формулы для суммы арифметической прогрессии.
+    + 3. С использованием формулы для суммы арифметической прогрессии.
     
    Результат: [SumTo(n)](https://github.com/Liakhov/Learn-JS/tree/master/main/Basics%20of%20JavaScript/SumTo(n))
      
@@ -43,23 +43,29 @@
       Результат: [fib(n)](https://github.com/Liakhov/Learn-JS/tree/master/main/Basics%20of%20JavaScript/fib(n))
 
 ## Структуры данных
-  <ul>
-    <li>
-        <span><b>Напишите функцию fibBinet(n), которая будет вычислять Fn (формулу Бине).</b></span>
- <p>Последовательность чисел Фибоначчи имеет формулу Fn = Fn-1 + Fn-2. То есть, следующее число получается как сумма двух предыдущих.</p>
-<p>Существует  формула Бине, согласно которой Fn равно ближайшему целому для ϕn/√5, где ϕ=(1+√5)/2 – золотое сечение.</p>
-      <span>Результат: </span><a href="/main/Data Structures/fibBinet(n)">fibBinet(n)</a>
-    </li>
-    <li>
-    <span><b>Напишите функцию randomInteger(min, max) для генерации случайного целого числа между min и max, включая min,max как возможные значения.</b></span>
-    <p>Любое число из интервала min..max должно иметь одинаковую вероятность.</p>
-    <span>Результат: </span><a href="/main/Data Structures/randomInteger(min, max)">randomInteger(min, max)</a>
-    </li>
-    <li>
- <span><b>Напишите функцию ucFirst(str), которая возвращает строку str с заглавным первым символом</b></span> 
-    ucFirst("вася") == "Вася";
-    ucFirst("") == ""; // нет ошибок при пустой строке
-<p>P.S. В JavaScript нет встроенного метода для этого. Создайте функцию, используя toUpperCase() и charAt()</p>
-<span>Результат: </span><a href="/main/Data Structures/ucFirst(str)">ucFirst(str)</a>
-    </li>
-  </ul>
+   
+   + **Напишите функцию fibBinet(n), которая будет вычислять Fn (формулу Бине).**
+   
+      Последовательность чисел Фибоначчи имеет формулу Fn = Fn-1 + Fn-2. То есть, следующее число получается как сумма двух предыдущих.
+      Существует  формула Бине, согласно которой Fn равно ближайшему целому для ϕn/√5, где ϕ=(1+√5)/2 – золотое сечение.
+
+      Результат: [fibBinet(n)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/fibBinet(n))
+
+   + **Напишите функцию randomInteger(min, max) для генерации случайного целого числа между min и max, включая min, max как возможные значения.**
+   
+     Любое число из интервала min..max должно иметь одинаковую вероятность.
+     
+     Результат: [randomInteger(min, max)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/randomInteger(min%2C%20max))
+ 
+   + **Напишите функцию ucFirst(str), которая возвращает строку str с заглавным первым символом**
+    
+      '''
+      
+      ucFirst("вася") == "Вася";
+      ucFirst("") == ""; // нет ошибок при пустой строке
+      '''
+
+     P.S. В JavaScript нет встроенного метода для этого. Создайте функцию, используя toUpperCase() и charAt()
+  
+     Результат: [ucFirst(str)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/ucFirst(str))
+ 
