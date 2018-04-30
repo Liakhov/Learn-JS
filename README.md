@@ -26,7 +26,7 @@
     
     + 3. С использованием формулы для суммы арифметической прогрессии.
     
-   Результат: [SumTo(n)](https://github.com/Liakhov/Learn-JS/tree/master/main/Basics%20of%20JavaScript/SumTo(n))
+      Результат: [SumTo(n)](https://github.com/Liakhov/Learn-JS/tree/master/main/Basics%20of%20JavaScript/SumTo(n))
      
   + **Напишите функцию factorial(n), которая возвращает факториал числа n!, используя рекурсивный вызов.**
   
