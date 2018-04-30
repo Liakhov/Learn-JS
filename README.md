@@ -76,4 +76,11 @@
            truncate("Всем привет!", 20) = "Всем привет!"
      
      Результат: [truncate(str, maxlength)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/truncate(str%2C%20maxlength))
+     
+     + **Выделить число **
+     
+        Есть стоимость в виде строки: "$120". То есть, первым идёт знак валюты, а затем – число.
+
+        Создайте функцию extractCurrencyValue(str), которая будет из такой строки выделять число-значение, в данном случае 120.
+        Результат: [extractCurrencyValue(str)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/extractCurrencyValue(str))
  
