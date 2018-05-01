@@ -137,5 +137,25 @@
 
           //... ваш код выведет 650
           
-       Резултат: [sumObj](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/sumObj)
+       Результат: [sumObj](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/sumObj)
+      
+      + **Свойство с наибольшим значением**
+      
+        Есть объект salaries с зарплатами. Напишите код, который выведет имя сотрудника, у которого самая большая зарплата.
+
+        Если объект пустой, то пусть он выводит «нет сотрудников».
+
+        Например:
+        
+              "use strict";
+
+              var salaries = {
+                "Вася": 100,
+                "Петя": 300,
+                "Даша": 250
+              };
+
+              // ... ваш код выведет "Петя"
+      
+        Результат: [maxValue](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/maxValueObj)
       
