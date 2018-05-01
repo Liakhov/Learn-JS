@@ -159,7 +159,7 @@
       
         Результат: [maxValue](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/maxValueObj)
         
-     + **Умножьте численные свойства на 2**
+   + **Умножьте численные свойства на 2**
      
         Создайте функцию multiplyNumeric, которая получает объект и умножает все численные свойства на 2. 
         
