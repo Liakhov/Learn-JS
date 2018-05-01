@@ -97,3 +97,20 @@
       5.  Удалите свойство name из объекта.
 
     Результат: [Object](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/obj)
+    
+  
+  + **Определите, пуст ли объект**
+  
+      Создайте функцию isEmpty(obj), которая возвращает true, если в объекте нет свойств и false – если хоть одно свойство есть.
+
+      Работать должно так:
+    
+          function isEmpty(obj) {
+            /* ваш код */
+          }
+          var schedule = {};
+          alert( isEmpty(schedule) ); // true
+          schedule["8:30"] = "подъём";
+          alert( isEmpty(schedule) ); // false
+    
+    Результат: [isEmpty](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/isEmpty(obj))
