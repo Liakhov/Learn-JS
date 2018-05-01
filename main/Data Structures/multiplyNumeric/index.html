@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+
+
+<script>
+
+    function isNumeric(n) {
+        return !isNaN(parseFloat(n)) && isFinite(n)
+    }
+
+    var menu = {
+        width: 200,
+        height: 350,
+        color: 'white',
+        lineheight: 24
+    }
+
+    for( var key in menu){
+        if(isNumeric(menu[key])){
+            menu[key] *= 2;
+        }
+    }
+
+    console.log(menu);
+
+
+
+</script>
+
+
+</body>
+</html>

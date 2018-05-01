@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+
+
+<script>
+
+    "use strict";
+
+    var a = 0, b;
+
+    var salaries = {
+        'Юра' : 50,
+        "Вася": 100,
+        "Петя": 0,
+        "Даша": 150,
+        'Katia': 80
+    };
+
+
+
+    function isEmpty(salaries) {
+        for (var keys in salaries) {
+            return false;
+        }
+        return true;
+    }
+
+    if(isEmpty(salaries) == true){
+        console.log("Нет сотрудников");
+    }
+    else {
+        for(var keys in salaries) {
+            (salaries[keys] > a) ? (a = salaries[keys]) && (b = keys) : 0;
+
+        }
+        console.log(b);
+    }
+
+</script>
+
+</body>
+</html>
