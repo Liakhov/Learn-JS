@@ -85,3 +85,15 @@
         
         Результат: [extractCurrencyValue(str)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/extractCurrencyValue(str))
  
+ 
+  + **Первый объект**
+  
+      Мини-задача на синтаксис объектов. Напишите код, по строке на каждое действие.
+
+      1.  Создайте пустой объект user.
+      2.  Добавьте свойство name со значением Вася.
+      3.  Добавьте свойство surname со значением Петров.
+      4.  Поменяйте значение name на Сергей.
+      5.  Удалите свойство name из объекта.
+
+    Результат: [Object](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/obj)
