@@ -137,5 +137,5 @@
 
           //... ваш код выведет 650
           
-       Резултат: [sumObj]()
+       Резултат: [sumObj](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/sumObj)
       
