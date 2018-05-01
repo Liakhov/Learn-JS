@@ -139,23 +139,47 @@
           
        Результат: [sumObj](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/sumObj)
       
-      + **Свойство с наибольшим значением**
+   + **Свойство с наибольшим значением**
       
-        Есть объект salaries с зарплатами. Напишите код, который выведет имя сотрудника, у которого самая большая зарплата.
+       Есть объект salaries с зарплатами. Напишите код, который выведет имя сотрудника, у которого самая большая зарплата.
 
-        Если объект пустой, то пусть он выводит «нет сотрудников».
+       Если объект пустой, то пусть он выводит «нет сотрудников».
 
-        Например:
+       Например:
         
-              "use strict";
+            "use strict";
 
-              var salaries = {
-                "Вася": 100,
-                "Петя": 300,
-                "Даша": 250
-              };
+            var salaries = {
+              "Вася": 100,
+              "Петя": 300,
+              "Даша": 250
+             };
 
-              // ... ваш код выведет "Петя"
+            // ... ваш код выведет "Петя"
       
         Результат: [maxValue](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/maxValueObj)
+        
+     + **Умножьте численные свойства на 2**
+     
+        Создайте функцию multiplyNumeric, которая получает объект и умножает все численные свойства на 2. 
+        
+        Например:
+        
+              // до вызова
+              var menu = {
+                width: 200,
+                height: 300,
+                title: "My menu"
+              };
+
+              multiplyNumeric(menu);
+
+              // после вызова
+              menu = {
+                width: 400,
+                height: 600,
+                title: "My menu"
+              };
+        
+        Результат: [multiplyNumeric](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/multiplyNumeric)
       
