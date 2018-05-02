@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calc Array</title>
+</head>
+<body>
+
+
+     <script>
+
+         function isNumeric(a) {
+             return !isNaN(parseFloat(a)) && isFinite(a)
+         }
+
+         var arr =[];
+         var result = 0;
+
+
+        for(var i = 0; i == arr.length; i++){
+            var a = prompt();
+            if((a != null) && (a != '') && (isNumeric(a) == true)){
+                arr.push(+a);
+            }
+        }
+
+         alert(arr);
+
+         for(var j = 0; j < arr.length; j++){
+             result = result + arr[j];
+         }
+         alert(result);
+
+
+     </script>
+</body>
+</html>
