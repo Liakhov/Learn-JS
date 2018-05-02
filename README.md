@@ -333,9 +333,9 @@
    
         У объекта есть свойство **className**, которое хранит список «классов» – слов, разделенных пробелами:
 
-                var obj = {
-                  className: 'open menu'
-                };
+             var obj = {
+               className: 'open menu'
+             };
 
         Напишите функцию **removeClass(obj, cls)**, которая удаляет класс cls, если он есть:
 
@@ -344,11 +344,11 @@
 
         P.S. Дополнительное усложнение. Функция должна корректно обрабатывать дублирование класса в строке:
 
-              obj = {
-                className: 'my menu menu'
-              };
-              removeClass(obj, 'menu');
-              alert( obj.className ); // 'my'
+             obj = {
+               className: 'my menu menu'
+             };
+             removeClass(obj, 'menu');
+             alert( obj.className ); // 'my'
       
       Результат: [removeClass](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/removeClass)
        
