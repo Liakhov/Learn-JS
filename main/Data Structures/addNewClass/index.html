@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>addNewClass</title>
+</head>
+<body>
+
+
+
+
+    <script>
+        var obj = {
+            className: 'open menu'
+        }
+
+        function addClass(obj, cls) {
+
+            var arr = obj.className.split(' ');
+
+            for (var i = 0; i < arr.length; i++) {
+                if(arr[i] == cls){
+                    return obj.className =  arr.join(' ');
+                }
+
+            }
+            arr.splice(arr.length, 0, cls);
+            return obj.className =  arr.join(' ');
+
+        }
+
+        addClass(obj, 'new'); // obj.className='open menu new'
+        addClass(obj, 'open'); // без изменений (класс уже существует)
+        addClass(obj, 'me'); // obj.className='open menu new me'
+
+        alert( obj.className ); // "open menu new me"
+
+    </script>
+
+</body>
+</html>
