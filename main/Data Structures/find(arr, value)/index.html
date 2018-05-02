@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>find(arr, value)</title>
+</head>
+<body>
+
+    <script>
+
+        var arr = [1, 4, 98, 35, 'Petia', 23, 34];
+
+        function find(arr, value) {
+            for(var i = 0; i <= arr.length; i++){
+
+                if( arr[i] === value){
+                    return i;
+                }
+            }
+            return -1;
+        }
+        alert(find(arr, 'Petia'));
+
+    </script>
+
+</body>
+</html>
