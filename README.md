@@ -241,3 +241,18 @@
           var rand = min + Math.floor(Math.random() * (max + 1 - min));
       
        Результат: [randElemArray](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/randElemArray)
+       
+       
+       
+  + **Создайте калькулятор для введённых значений**
+  
+      Напишите код, который:
+
+      +Запрашивает по очереди значения при помощи prompt и сохраняет их в массиве.
+      +Заканчивает ввод, как только посетитель введёт пустую строку, не число или нажмёт «Отмена».
+      +При этом ноль 0 не должен заканчивать ввод, это разрешённое число.
+      +Выводит сумму всех значений массива
+  
+  
+  
+     Результат: [calcArray](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/calcArray)
