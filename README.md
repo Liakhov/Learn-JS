@@ -256,4 +256,19 @@
       
       + Выводит сумму всех значений массива
   
-     Результат: [calcArray](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/calcArray)
+     Результат: [calcArray](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/calcArray)ґ
+     
+     
+  + **Поиск в массиве**
+      
+      Создайте функцию find(arr, value), которая ищет в массиве arr значение value и возвращает его номер, если найдено, или -1, если не найдено.
+      
+          arr = ["test", 2, 1.5, false];
+
+          find(arr, "test"); // 0
+          find(arr, 2); // 1
+          find(arr, 1.5); // 2
+
+          find(arr, 0); // -1 
+     
+     Результат: [find(arr, value)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/find(arr%2C%20value))
