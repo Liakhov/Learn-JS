@@ -182,4 +182,16 @@
               };
         
         Результат: [multiplyNumeric](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/multiplyNumeric)
+        
+        
+     + **Получить последний элемент массива**
+        
+        Как получить последний элемент из произвольного массива?
+
+        У нас есть массив goods. Сколько в нем элементов – не знаем, но можем прочитать из goods.length.
+
+        Напишите код для получения последнего элемента goods.
+        
+        
+        Результат: [operationArray](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/lastElemArray)
       
