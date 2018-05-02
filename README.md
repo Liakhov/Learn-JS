@@ -289,3 +289,24 @@
      
       
       Результат: [filterRange(arr, a, b)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/filterRange(arr%2C%20a%2C%20b))
+      
+   + **Добавить класс в строку**
+   
+       В объекте есть свойство className, которое содержит список «классов» – слов, разделенных пробелом:
+
+          var obj = {
+            className: 'open menu'
+          }
+          
+       Создайте функцию addClass(obj, cls), которая добавляет в список класс cls, но только если его там еще нет:
+
+          addClass(obj, 'new'); // obj.className='open menu new'
+          addClass(obj, 'open'); // без изменений (класс уже существует)
+          addClass(obj, 'me'); // obj.className='open menu new me'
+
+          alert( obj.className ); // "open menu new me"
+          
+       P.S. Ваша функция не должна добавлять лишних пробелов.
+      
+      
+       Результат: [addNewClass](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/addNewClass)
