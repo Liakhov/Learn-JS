@@ -274,3 +274,18 @@
           find(arr, 0); // -1 
      
      Результат: [find(arr, value)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/find(arr%2C%20value))
+     
+   + **Фильтр диапазона**
+   
+        Создайте функцию filterRange(arr, a, b), которая принимает массив чисел arr и возвращает новый массив, который содержит только числа из arr из диапазона от a до b. То есть, проверка имеет вид a ≤ arr[i] ≤ b. Функция не должна менять arr.
+
+        Пример работы:
+        
+            var arr = [5, 4, 3, 8, 0];
+
+            var filtered = filterRange(arr, 3, 5);
+            // теперь filtered = [5, 4, 3]
+            // arr не изменился
+     
+      
+      Результат: [filterRange(arr, a, b)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/filterRange(arr%2C%20a%2C%20b))
