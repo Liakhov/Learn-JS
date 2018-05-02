@@ -195,3 +195,10 @@
         
        Результат: [operationArray](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/lastElemArray)
       
+  + **Добавить новый элемент в массив**
+
+       Как добавить элемент в конец произвольного массива?
+
+       У нас есть массив goods. Напишите код для добавления в его конец значения «Компьютер».
+       
+       Результат: [operationArray](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/lastElemArray)
