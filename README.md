@@ -310,3 +310,22 @@
       
       
        Результат: [addNewClass](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/addNewClass)
+       
+   + **Перевести текст вида border-left-width в borderLeftWidth**
+      
+      
+        Напишите функцию camelize(str), которая преобразует строки вида «my-short-string» в «myShortString».
+
+        То есть, дефисы удаляются, а все слова после них получают заглавную букву.
+
+        Например:
+
+            camelize("background-color") == 'backgroundColor';
+            camelize("list-style-image") == 'listStyleImage';
+            camelize("-webkit-transition") == 'WebkitTransition';
+        
+        Такая функция полезна при работе с CSS.
+   
+   
+      Результат: [camelize(str)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/camelize(str))
+       
