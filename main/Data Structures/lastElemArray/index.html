@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        var arr = [1, 3, 2, 6, 7, 23, 76, 982];
+
+
+        // Получить последний элемент массива
+        alert(arr[arr.length - 1]);
+
+        //Добавить новый элемент в конец массива
+        arr.push('342');
+
+
+        //Создание массива
+                //Задача из 5 шагов-строк:
+                    // 1.Создайте массив styles с элементами «Джаз», «Блюз».
+                    // 2. Добавьте в конец значение «Рок-н-Ролл»
+                    // 3. Замените предпоследнее значение с конца на «Классика».
+                    // Код замены предпоследнего значения должен работать для массивов любой длины.
+                    // 4. Удалите первое значение массива и выведите его alert.
+                    // 5. Добавьте в начало значения «Рэп» и «Регги».
+
+        var styles = ['Джаз', 'Блюз'];
+
+        styles[styles.length] = 'Рок-н-Ролл';
+
+        styles[styles.length-2] = 'Классика';
+
+        styles.shift();
+
+        styles.unshift('Рэп', 'Регги');
+        
+        alert(styles);
+
+
+    </script>
+
+</body>
+</html>
