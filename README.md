@@ -328,4 +328,27 @@
    
    
       Результат: [camelize(str)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/camelize(str))
+      
+   + **Функция removeClass**
+   
+        У объекта есть свойство **className**, которое хранит список «классов» – слов, разделенных пробелами:
+
+                var obj = {
+                  className: 'open menu'
+                };
+
+        Напишите функцию **removeClass(obj, cls)**, которая удаляет класс cls, если он есть:
+
+            removeClass(obj, 'open'); // obj.className='menu'
+            removeClass(obj, 'blabla'); // без изменений (нет такого класса)
+
+        P.S. Дополнительное усложнение. Функция должна корректно обрабатывать дублирование класса в строке:
+
+              obj = {
+                className: 'my menu menu'
+              };
+              removeClass(obj, 'menu');
+              alert( obj.className ); // 'my'
+      
+      Результат: [removeClass](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/removeClass)
        
