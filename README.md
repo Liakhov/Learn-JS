@@ -227,3 +227,17 @@
             Рэп, Регги, Классика, Рок-н-Ролл
 
        Результат: [operationArray](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/lastElemArray)
+       
+       
+       
+  + **Получить случайное значение из массива**
+  
+       Напишите код для вывода alert случайного значения из массива:
+
+          var arr = ["Яблоко", "Апельсин", "Груша", "Лимон"];
+
+       P.S. Код для генерации случайного целого от min to max включительно:
+
+          var rand = min + Math.floor(Math.random() * (max + 1 - min));
+      
+       Результат: [randElemArray](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/randElemArray)
