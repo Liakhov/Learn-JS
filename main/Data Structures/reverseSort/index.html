@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>reverseSort</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        var arr = [5 , 3, 8, 1, 4, 0, 2, 9];
+
+        function compareNumeric(a, b) {
+            if(a < b){ return 1};
+            if(a > b){return -1};
+        }
+
+
+        arr.sort(compareNumeric);
+
+        alert(arr);
+
+
+
+        function sortBuble(arr) {
+            for(j = 0; j < arr.length; j++){
+                for(i = 0; i < arr.length; i++){
+                    var val = 0;
+                    if(arr[i] < arr[i+1]){
+                        val = arr[i+1];
+                        arr[i+1] = arr[i];
+                        arr[i] = val;
+                    }
+                }
+            }
+            return arr;
+        }
+        alert(sortBuble(arr));
+
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
