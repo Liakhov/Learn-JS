@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sortObjAge</title>
+</head>
+<body>
+
+
+
+
+    <script>
+
+        var vasya = { name: "Вася", age: 23 };
+        var masha = { name: "Маша", age: 18 };
+        var vovochka = { name: "Вовочка", age: 6 };
+
+        var people = [ vasya , masha , vovochka, ania, marina ];
+
+        function sortAge(peopleA, peopleB) {
+            return peopleA.age - peopleB.age;
+        }
+
+        people.sort(sortAge);
+
+        for(i = 0; i < people.length; i++){
+            alert(people[i].name + ' ' + people[i].age);
+        }
+    </script>
+
+</body>
+</html>
