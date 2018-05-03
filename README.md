@@ -368,4 +368,10 @@
       
       
         Результат: [filterRangeInPlace(arr, a, b)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/filterRangeInPlace(arr%2C%20a%2C%20b))
-       
+        
+   + **Сортировка Бульбашкой**
+   
+        Напишите код, который сортирует значения массива **arr**, методом Бульбашки.
+        
+     
+     Результат: [sortBulb](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/sortBulb)
