@@ -375,3 +375,18 @@
         
      
      Результат: [sortBulb](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/sortBulb)
+     
+     
+     
+     
+   + **Сортировать в обратном порядке**
+   
+       Как отсортировать массив чисел в обратном порядке?
+
+          var arr = [5, 2, 1, -10, 8];
+
+          // отсортируйте?
+
+          alert( arr ); // 8, 5, 2, 1, -10
+   
+      Результат: [reverseSort](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/reverseSort)
