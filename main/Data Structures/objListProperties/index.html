@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>objListProperties</title>
+</head>
+<body>
+    <script>
+
+
+        var list = {
+            value: 1,
+            a: {
+                value: 2,
+                a: {
+                    value: 3,
+                    a: {
+                        value: 4,
+                        a: null
+                    }
+                }
+            }
+         };
+
+//        function printList(list) {
+//            alert(list.value);
+//            if(list.a){
+//                printList(list.a);
+//            }
+//        }
+//        printList(list);
+
+       function objList(list) {
+           var tmp = list;
+
+           while(tmp){
+               alert(tmp.value);
+               tmp = tmp.a;
+           }
+       }
+
+       objList(list);
+
+
+    </script>
+
+</body>
+</html>
