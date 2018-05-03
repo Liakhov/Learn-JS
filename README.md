@@ -390,3 +390,31 @@
           alert( arr ); // 8, 5, 2, 1, -10
    
       Результат: [reverseSort](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/reverseSort)
+      
+   + **Скопировать и отсортировать массив**
+   
+      Есть массив строк **arr**. Создайте массив **arrSorted** – из тех же элементов, но отсортированный.
+
+      Исходный массив не должен меняться.
+
+            var arr = ["HTML", "JavaScript", "CSS"];
+
+            // ... ваш код ...
+
+            alert( arrSorted ); // CSS, HTML, JavaScript
+            alert( arr ); // HTML, JavaScript, CSS (без изменений)
+      
+      Результат: [arrSorted](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/arrSorted)
+      
+   + **Случайный порядок в массиве**
+
+      Используйте функцию sort для того, чтобы «перетрясти» элементы массива в случайном порядке.
+
+            var arr = [1, 2, 3, 4, 5];
+
+            arr.sort(ваша функция);
+
+            alert( arr ); // элементы в случайном порядке, например [3,5,1,2,4]
+      
+      
+      Результат: [randomSorted]()
