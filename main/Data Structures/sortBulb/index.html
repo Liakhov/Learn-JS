@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SortBulb</title>
+</head>
+<body>
+
+
+    <script>
+        var arr = [8, 3, 2, 0, 1, 15, 4, 5, 23, 6, 37];
+
+        for(j = 0; j < arr.length; j++){
+            for(var i = 0; i < arr.length; i++){
+                var a = 0;
+                if(arr[i] > arr[i+1]){
+                    a = arr[i+1];
+                    arr[i + 1] = arr[i];
+                    arr[i] = a;
+                }
+             }
+        }
+        alert(arr);
+
+    </script>
+
+</body>
+</html>
