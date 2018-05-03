@@ -440,3 +440,14 @@
       Выведите список имён в массиве после сортировки.
       
       Результат: [sortObjAge](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/sortObjAge)
+      
+   + **Вывести односвязный список**
+      
+      
+          Задачи:
+
+          Напишите функцию printList(list), которая выводит элементы списка по очереди, при помощи цикла.
+          Напишите функцию printList(list) при помощи рекурсии.
+
+      
+      Результат: [objListProperties](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/objListProperties)
