@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>summArguments</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        function sum() {
+            var arr = [];
+            for(i = 0; i < arguments.length; i++){
+                arr[i] = arguments[i];
+            }
+            var result = arr.reduce(function (sum, current) {
+                    return sum + current;
+            });
+            return result;
+        }
+
+        alert(sum(1, 2, 3, 4));
+
+
+    </script>
+
+</body>
+</html>
