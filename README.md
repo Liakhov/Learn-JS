@@ -522,13 +522,27 @@
 
       То есть:
 
-          для arr = [ 1, 2, 3, 4, 5 ]
-          getSums( arr ) = [ 1, 1+2, 1+2+3, 1+2+3+4, 1+2+3+4+5 ] = [ 1, 3, 6, 10, 15 ]
-          Еще пример: getSums([-2,-1,0,1]) = [-2,-3,-3,-2].
+            для arr = [ 1, 2, 3, 4, 5 ]
+            getSums( arr ) = [ 1, 1+2, 1+2+3, 1+2+3+4, 1+2+3+4+5 ] = [ 1, 3, 6, 10, 15 ]
+            Еще пример: getSums([-2,-1,0,1]) = [-2,-3,-3,-2].
 
       Функция не должна модифицировать входной массив.
       
       В решении используйте метод arr.reduce
       
       Результат: [getSummArr](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/getSumArr)
+      
+  + **Проверка на аргумент-undefined**
+  
+      Как в функции отличить отсутствующий аргумент от **undefined**?
+
+            function f(x) {
+              // ..ваш код..
+              // выведите 1, если первый аргумент есть, и 0 - если нет
+            }
+
+            f(undefined); // 1
+            f(); // 0
+      
+      Результат: [arguments](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/arguments)
        
