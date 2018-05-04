@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>anagram</title>
+</head>
+<body>
+
+    <script>
+
+        var arr = ["воз", "киборг", "корсет", "зов", 'киборг', 'ЗОВ'];
+
+        function anagramm(arr) {
+
+            var obj = {};
+
+            for (i = 0; i < arr.length; i++) {
+                var a = arr[i].toLowerCase().split('').sort().join('');
+                obj[a] = arr[i];
+            }
+
+            var result = [];
+
+            for (var key in obj) result.push(obj[key]);
+
+            return result;
+        }
+
+        alert(anagramm(arr));
+
+    </script>
+
+</body>
+</html>
