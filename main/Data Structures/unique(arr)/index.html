@@ -10,26 +10,44 @@
 
     <script>
 
-        var strings = ["кришна", "кришна", "харе", "харе",  "харе", "харе", "кришна", "кришна", "8-()"];
+        var strings = ["кришна", "кришна", "харе", "харе",  "харе", "харе", "кришна", "кришна", "8-()", "8-()"];
 
-        function unique(arr) {
+//        function unique(arr) {
+//            var obj = {};
+//            var result = [];
+//
+//            for(i = 0; i < arr.length; i++){
+//                var element = arr[i];
+//                obj[element] = arr[i];
+//            }
+//
+//            for(var key in obj){
+//                result.push(obj[key]);
+//            }
+//            return result;
+//        }
 
-            var obj = {};
-            var result = [];
 
-            for(i = 0; i < arr.length; i++){
-                var element = arr[i];
-                obj[element] = arr[i];
-            }
+         function unique(arr) {
+             var result = [];
 
-            for(var key in obj){
-                result.push(obj[key]);
-            }
-            return result;
-        }
+             nextInput:
 
+                 for (i = 0; i < arr.length; i++) {
 
-        alert( unique(strings) );
+                    var tmp = arr[i];
+
+                     for (j = 0; j < result.length; j++) {
+                             if (result[j] == tmp) {
+                                continue nextInput;
+                             }
+                     }
+                   result.push(tmp);
+                 }
+             return result;
+          }
+
+        alert( unique(strings));
 
     </script>
 
