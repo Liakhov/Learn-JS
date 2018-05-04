@@ -545,4 +545,16 @@
             f(); // 0
       
       Результат: [arguments](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/arguments)
-       
+      
+      
+ + **Сумма аргументов**
+
+      Напишите функцию sum(...), которая возвращает сумму всех своих аргументов:
+
+            sum() = 0
+            sum(1) = 1
+            sum(1, 2) = 3
+            sum(1, 2, 3) = 6
+            sum(1, 2, 3, 4) = 10   
+      
+      Результат: (summArguments)[https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/summArguments] 
