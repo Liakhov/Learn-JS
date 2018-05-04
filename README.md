@@ -481,15 +481,15 @@
 
       Например:
 
-          function unique(arr) {
-            /* ваш код */
-          }
+            function unique(arr) {
+              /* ваш код */
+            }
 
-          var strings = ["кришна", "кришна", "харе", "харе",
-            "харе", "харе", "кришна", "кришна", "8-()"
-          ];
+            var strings = ["кришна", "кришна", "харе", "харе",
+              "харе", "харе", "кришна", "кришна", "8-()"
+            ];
 
-          alert( unique(strings) ); // кришна, харе, 8-()
+            alert( unique(strings) ); // кришна, харе, 8-()
       
       
       Результат: [unique(arr)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/unique(arr))
