@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>unique(arr)</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        var strings = ["кришна", "кришна", "харе", "харе",  "харе", "харе", "кришна", "кришна", "8-()"];
+
+        function unique(arr) {
+
+            var obj = {};
+            var result = [];
+
+            for(i = 0; i < arr.length; i++){
+                var element = arr[i];
+                obj[element] = arr[i];
+            }
+
+            for(var key in obj){
+                result.push(obj[key]);
+            }
+            return result;
+        }
+
+
+        alert( unique(strings) );
+
+    </script>
+
+</body>
+</html>
