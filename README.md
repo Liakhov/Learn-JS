@@ -472,3 +472,24 @@
       
       
       Результат: [anagramm](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/anagram)
+      
+   + **Оставить уникальные элементы массива**
+   
+      Пусть **arr** – массив строк.
+
+      Напишите функцию **unique(arr)**, которая возвращает массив, содержащий только уникальные элементы arr.
+
+      Например:
+
+          function unique(arr) {
+            /* ваш код */
+          }
+
+          var strings = ["кришна", "кришна", "харе", "харе",
+            "харе", "харе", "кришна", "кришна", "8-()"
+          ];
+
+          alert( unique(strings) ); // кришна, харе, 8-()
+      
+      
+      Результат: [unique(arr)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/unique(arr))
