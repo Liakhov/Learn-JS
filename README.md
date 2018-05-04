@@ -493,3 +493,21 @@
       
       
       Результат: [unique(arr)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/unique(arr))
+      
+      
+   + **Перепишите цикл через map**
+   
+      Код ниже получает из массива строк новый массив, содержащий их длины:
+
+            var arr = ["Есть", "жизнь", "на", "Марсе"];
+
+            var arrLength = [];
+            for (var i = 0; i < arr.length; i++) {
+              arrLength[i] = arr[i].length;
+            }
+
+            alert( arrLength ); // 4,5,2,5
+      
+      Перепишите выделенный участок: уберите цикл, используйте вместо него метод **map**.
+           
+      Результат: [methodMap](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/metodMap)
