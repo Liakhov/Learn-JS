@@ -557,4 +557,4 @@
             sum(1, 2, 3) = 6
             sum(1, 2, 3, 4) = 10   
       
-      Результат: (summArguments)[https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/summArguments] 
+      Результат:[summArguments](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/summArguments) 
