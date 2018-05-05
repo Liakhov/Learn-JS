@@ -590,4 +590,17 @@
      
       Результат: [NumberDay](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/NumberDay)
       
+  +   **День указанное количество дней назад**
+
+        Создайте функцию **getDateAgo(date, days)**, которая возвращает число, которое было days дней назад от даты date.
+
+        Например, для 2 января 2015:
+
+            var date = new Date(2015, 0, 2);
+
+            alert( getDateAgo(date, 1) ); // 1, (1 января 2015)
+            alert( getDateAgo(date, 2) ); // 31, (31 декабря 2014)
+            alert( getDateAgo(date, 365) ); // 2, (2 января 2014)    
       
+      
+      Результат: [getDateAgo](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/getDateAgo)
