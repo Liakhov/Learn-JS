@@ -558,3 +558,12 @@
             sum(1, 2, 3, 4) = 10   
       
       Результат:[summArguments](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/summArguments) 
+      
+      
+  + **Создайте дату**
+      
+      Создайте объект **Date** для даты: 20 февраля 2012 года, 3 часа 12 минут.
+
+      Временная зона – местная. Выведите его на экран.
+       
+      Результат: [Date](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/Date)
