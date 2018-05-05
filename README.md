@@ -644,3 +644,19 @@
       P.S. Функция должна работать в любой день, т.е. в ней не должно быть конкретного значения сегодняшней даты.
       
       Результат: [getSecondsTomorrow](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/getSecondsTomorrow)
+
+
+
+   + **Вывести дату в формате дд.мм.гг**
+   
+   
+      Напишите функцию formatDate(date), которая выводит дату date в формате дд.мм.гг:
+
+      Например:
+
+          var d = new Date(2014, 0, 30); // 30 января 2014
+          alert( formatDate(d) ); // '30.01.14'
+          
+      P.S. Обратите внимание, ведущие нули должны присутствовать, то есть 1 января 2001 должно быть 01.01.01, а не 1.1.1.
+      
+      Результат: [formatDate(date)](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/formatDate(date))
