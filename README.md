@@ -604,3 +604,16 @@
       
       
       Результат: [getDateAgo](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/getDateAgo)
+      
+  + **Сколько секунд уже прошло сегодня?**
+      
+      Напишите функцию **getSecondsToday()** которая возвращает, сколько секунд прошло с начала сегодняшнего дня.
+
+      Например, если сейчас 10:00 и не было перехода на зимнее/летнее время, то:
+
+          getSecondsToday() == 36000 // (3600 * 10)
+          
+      Функция должна работать в любой день, т.е. в ней не должно быть конкретного значения сегодняшней даты.
+      
+      
+      Результат: [getSecondToday](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/getSecondToday)
