@@ -578,3 +578,16 @@
           alert( getWeekDay(date) );      // Должно вывести 'вт'
       
       Результат: [WeekDay](https://github.com/Liakhov/Learn-JS/blob/master/main/Data%20Structures/WeekDay)
+     
+   + **День недели в европейской нумерации**  
+      
+      Напишите функцию, getLocalDay(date) которая возвращает день недели для даты date.
+
+      День нужно возвратить в европейской нумерации, т.е. понедельник имеет номер 1, вторник номер 2, …, воскресенье – номер 7.
+
+          var date = new Date(2012, 0, 3);  // 3 янв 2012
+          alert( getLocalDay(date) );       // вторник, выведет 2
+     
+      Результат: [NumberDay](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/NumberDay)
+      
+      
