@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weekday</title>
+</head>
+<body>
+
+
+
+<script>
+
+    var date = new Date(2012, 1, 21, 1, 12);
+
+    function getWeekday(date) {
+        return date.toLocaleString('ru', {weekday: 'short'});
+    }
+
+    //        function getWeekday(date) {
+    //            var week = ['нд', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+    //
+    //            return week[date.getDay()];
+    //        }
+
+    alert(getWeekday(date));
+
+</script>
+
+</body>
+</html>
