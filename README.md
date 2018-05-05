@@ -567,3 +567,14 @@
       Временная зона – местная. Выведите его на экран.
        
       Результат: [Date](https://github.com/Liakhov/Learn-JS/tree/master/main/Data%20Structures/Date)
+      
+  + **Имя дня недели**
+  
+      Создайте функцию getWeekDay(date), которая выводит текущий день недели в коротком формате „пн“, „вт“, … „вс“.
+
+      Например:
+
+          var date = new Date(2012,0,3);  // 3 января 2012
+          alert( getWeekDay(date) );      // Должно вывести 'вт'
+      
+      Результат: [WeekDay](https://github.com/Liakhov/Learn-JS/blob/master/main/Data%20Structures/WeekDay)
