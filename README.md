@@ -696,4 +696,4 @@
         sum(1)(2) = 3
         sum(5)(-1) = 4
         
-      Результат:   
+      Результат: [sum(a)(b)](https://github.com/Liakhov/Learn-JS/tree/master/main/Closures%2C%20scope/sum(a)(b))
