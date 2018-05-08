@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>makeBuffer</title>
+</head>
+<body>
+
+
+    <script>
+
+        function makeBuffer() {
+            var a = ' ';
+
+           return function (name) {
+               if(name == undefined){
+                   return a;
+               }else{
+                   return a += name;
+               }
+           };
+            
+        };
+
+        var buffer = makeBuffer();
+
+        buffer(1);
+        buffer(123);
+
+        alert(buffer());
+
+    </script>
+
+</body>
+</html>
