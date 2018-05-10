@@ -738,3 +738,23 @@
       Решение не должно использовать глобальные переменные.      
       
       Результат: [makeBuffer](https://github.com/Liakhov/Learn-JS/tree/master/main/Closures%2C%20scope/makeBuffer)
+      
+  + **Строковый буфер с очисткой**
+      
+      Добавьте буферу из решения задачи Функция - строковый буфер метод **buffer.clear()**, который будет очищать текущее содержимое буфера:
+      
+            function makeBuffer() {
+              ...ваш код...
+            }
+
+            var buffer = makeBuffer();
+
+            buffer("Тест");
+            buffer(" тебя не съест ");
+            alert( buffer() ); // Тест тебя не съест
+
+            buffer.clear();
+
+            alert( buffer() ); // ""
+      
+      Результат: [buffer.clear()](https://github.com/Liakhov/Learn-JS/tree/master/main/Closures%2C%20scope/buffer.clear())
