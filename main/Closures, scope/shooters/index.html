@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shooters</title>
+</head>
+<body>
+
+
+<script>
+    function makeArmy() {
+
+        var shooters = [];
+
+        for (var i = 0; i < 10; i++) {
+            var shooter = function me() { // функция-стрелок
+
+
+                alert( me.i); // выводит свой номер
+            };
+            shooter.i = i;
+            shooters.push(shooter);
+
+        }
+
+        return shooters;
+    }
+
+    var army = makeArmy();
+
+    army[0](); // 0
+    army[1](); // 1
+    army[6](); // 0
+</script>
+</body>
+</html>
