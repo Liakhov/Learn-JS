@@ -871,12 +871,12 @@
         
         + mul() возвращает произведение этих двух значений
         
-              var calculator = {
-                ...ваш код...
-              }
+                var calculator = {
+                  ...ваш код...
+                }
 
-              calculator.read();
-              alert( calculator.sum() );
-              alert( calculator.mul() );
+                calculator.read();
+                alert( calculator.sum() );
+                alert( calculator.mul() );
       
       Результат: [calculator](https://github.com/Liakhov/Learn-JS/tree/master/main/Object%20methods%20and%20call%20context/calculator)
