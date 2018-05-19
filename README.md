@@ -858,3 +858,25 @@
       Почему все стрелки́ выводят одно и то же? Поправьте код, чтобы стрелки работали как задумано. Предложите несколько вариантов исправления.
       
       Результат: [shooters](https://github.com/Liakhov/Learn-JS/tree/master/main/Closures%2C%20scope/shooters)
+      
+## Методы объектов и контекст вызова
+      
+   + **Создайте калькулятор**
+      
+      Создайте объект **calculator** с тремя методами:
+
+        + read() запрашивает prompt два значения и сохраняет их как свойства объекта
+        
+        + sum() возвращает сумму этих двух значений
+        
+        + mul() возвращает произведение этих двух значений
+        
+              var calculator = {
+                ...ваш код...
+              }
+
+              calculator.read();
+              alert( calculator.sum() );
+              alert( calculator.mul() );
+      
+      Результат: [calculator](https://github.com/Liakhov/Learn-JS/tree/master/main/Object%20methods%20and%20call%20context/calculator)
