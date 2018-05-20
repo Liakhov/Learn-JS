@@ -914,3 +914,24 @@
          Такой подход называется «чейнинг» (chaining) и используется, например, во фреймворке jQuery.
       
          Результат: [ladder](https://github.com/Liakhov/Learn-JS/tree/master/main/Object%20methods%20and%20call%20context/ladder)
+         
+         
+   + **Создать Calculator при помощи конструктора**
+        
+        Напишите функцию-конструктор **Calculator**, которая создает объект с тремя методами:
+
+        + Метод read() запрашивает два значения при помощи prompt и запоминает их в свойствах объекта.
+        
+        + Метод sum() возвращает сумму запомненных свойств.
+        
+        + Метод mul() возвращает произведение запомненных свойств.
+        
+        Пример использования:
+        
+            var calculator = new Calculator();
+            calculator.read();
+
+            alert( "Сумма=" + calculator.sum() );
+            alert( "Произведение=" + calculator.mul() );
+         
+        Результат: [new Calculator](https://github.com/Liakhov/Learn-JS/tree/master/main/Object%20methods%20and%20call%20context/new%20Calculator)
