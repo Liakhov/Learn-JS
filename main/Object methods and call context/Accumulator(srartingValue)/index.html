@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accumulator(startingValue)</title>
+</head>
+<body>
+
+
+
+
+
+
+    <script>
+
+        function Accumulator(startingValue) {
+                var start = startingValue;
+
+                this.value = function () {
+                    return start;
+                };
+
+                this.read = function () {
+                    this.a = +prompt('a', 0);
+                    return start += this.a;
+                };
+        }
+
+        var accumulator = new Accumulator(2);
+
+        accumulator.read();
+        accumulator.read();
+        accumulator.read();
+
+        alert(accumulator.value());
+
+
+    </script>
+
+</body>
+</html>
