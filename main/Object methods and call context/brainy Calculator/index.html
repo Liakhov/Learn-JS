@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>brainy Calculator</title>
+</head>
+<body>
+
+
+    <script>
+
+
+    function Calculator() {
+
+        this.arg = function (str) {
+            this.firstArg = +str.slice(0, str.indexOf(' '));
+            this.secondArg = +str.slice(str.lastIndexOf(' '));
+            this.operator = str.slice(str.indexOf(' ') + 1, str.lastIndexOf(' '));
+        };
+
+        this.calculate = function (str) {
+            this.arg(str);
+
+            if(this.operator === '+'){
+               return this.firstArg + this.secondArg;
+            }else if(this.operator === '-'){
+               return this.firstArg - this.secondArg;
+            }else{
+                return this.customClass(this.firstArg, this.secondArg);
+            }
+        };
+
+        this.addMethod = function (name, func) {
+            this.customClass = func;
+        };
+
+    }
+    var calc = new Calculator;
+    alert( calc.calculate("32 + 2237") ); // 10
+
+
+    var powerCalc = new Calculator;
+    powerCalc.addMethod("**", function(a, b) {
+        return Math.pow(a, b);
+    });
+
+    var result = powerCalc.calculate("2 ** 3");
+    alert( result ); // 8
+
+    </script>
+
+</body>
+</html>
