@@ -935,3 +935,24 @@
             alert( "Произведение=" + calculator.mul() );
          
         Результат: [new Calculator](https://github.com/Liakhov/Learn-JS/tree/master/main/Object%20methods%20and%20call%20context/new%20Calculator)
+
+  + **Создать Accumulator при помощи конструктора**
+        
+       Напишите функцию-конструктор Accumulator(startingValue). Объекты, которые она создает, должны хранить текущую сумму и прибавлять к ней то, что вводит посетитель.
+
+       Более формально, объект должен:
+
+       + Хранить текущее значение в своём свойстве value. Начальное значение свойства value ставится конструктором равным startingValue.
+
+       + Метод read() вызывает prompt, принимает число и прибавляет его к свойству value.
+      
+      Таким образом, свойство value является текущей суммой всего, что ввел посетитель при вызовах метода read(), с учетом начального значения startingValue.
+
+      Ниже вы можете посмотреть работу кода:
+
+        var accumulator = new Accumulator(1); // начальное значение 1
+        accumulator.read(); // прибавит ввод prompt к текущему значению
+        accumulator.read(); // прибавит ввод prompt к текущему значению
+        alert( accumulator.value ); // выведет текущее значение
+        
+      Результат: [Accumulator(srartingValue)](https://github.com/Liakhov/Learn-JS/tree/master/main/Object%20methods%20and%20call%20context/Accumulator(srartingValue))
