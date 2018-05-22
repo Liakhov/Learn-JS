@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>get, set propeties</title>
+</head>
+<body>
+
+
+    <script>
+
+        function User(fullName) {
+            this.fullName = fullName;
+
+            Object.defineProperty(this, 'firstName', {
+                get: function() {
+                    return this.fullName.split(' ')[0];
+                },
+                set: function (value) {
+                    this.fullName = value + ' ' + this.lastName;
+                }
+            });
+            Object.defineProperty(this, 'lastName', {
+                get: function() {
+                    return this.fullName.split(' ')[1];
+                },
+                set: function (value) {
+                    this.fullName = this.firstName + ' ' + value;
+                }
+            });
+        }
+
+
+        var vasya = new User('Василий Попкин');
+
+        alert(vasya.firstName);
+        alert(vasya.lastName);
+        alert(vasya.fullName);
+
+        vasya.firstName = 'Олег';
+        vasya.lastName = 'Дурнев';
+
+        alert(vasya.firstName);
+        alert(vasya.lastName);
+        alert(vasya.fullName);
+
+
+    </script>
+
+</body>
+</html>
