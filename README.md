@@ -1025,3 +1025,33 @@
       Важно: в этой задаче **fullName** должно остаться свойством, а **firstName/lastName** – реализованы через **get/set**. Лишнее дублирование здесь ни к чему.
 
       Результат: [get, set propeties](https://github.com/Liakhov/Learn-JS/tree/master/main/Object%20methods%20and%20call%20context/get%2C%20set%20propeties)
+      
+ + **Счетчик объектов**
+      
+      Добавить в конструктор **Article**:
+
+      + 1. Подсчёт общего количества созданных объектов.
+
+      + 2. Запоминание даты последнего созданного объекта.
+
+      Используйте для этого статические свойства.
+
+      Пусть вызов **Article.showStats()** выводит то и другое.
+
+      Использование:  
+    
+        function Article() {
+        this.created = new Date();
+        // ... ваш код ...
+        }
+
+        new Article();
+        new Article();
+
+        Article.showStats(); // Всего: 2, Последняя: (дата)
+
+        new Article();
+
+        Article.showStats(); // Всего: 3, Последняя: (дата)
+      
+      Результат: [Articles](https://github.com/Liakhov/Learn-JS/tree/master/main/Object%20methods%20and%20call%20context/Articles)
