@@ -1155,3 +1155,84 @@
             alert( user.getFullName() ); // Петя Иванов
       
       Результат: [User(get/set)](https://github.com/Liakhov/Learn-JS/tree/master/main/OOP%20in%20a%20functional%20style/User(get:set))
+      
+  + **Добавить геттер для power**
+      
+      Добавьте кофеварке геттер для приватного свойства power, чтобы внешний код мог узнать мощность кофеварки.
+
+      Исходный код:
+          
+          function CoffeeMachine(power, capacity) {
+            //...
+            this.setWaterAmount = function(amount) {
+              if (amount < 0) {
+                throw new Error("Значение должно быть положительным");
+              }
+              if (amount > capacity) {
+                throw new Error("Нельзя залить воды больше, чем " + capacity);
+              }
+
+              waterAmount = amount;
+            };
+
+            this.getWaterAmount = function() {
+              return waterAmount;
+            };
+
+          }
+          
+       Обратим внимание, что ситуация, когда у свойства power есть геттер, но нет сеттера – вполне обычна.
+
+       Здесь это означает, что мощность power можно указать лишь при создании кофеварки и в дальнейшем её можно прочитать, но нельзя изменить.
+      
+      Результат: [getPower](https://github.com/Liakhov/Learn-JS/tree/master/main/OOP%20in%20a%20functional%20style/getPower)
+      
+ + **Добавить публичный метод кофеварке**
+      
+      Добавьте кофеварке публичный метод addWater(amount), который будет добавлять воду.
+
+      При этом, конечно же, должны происходить все необходимые проверки – на положительность и превышение ёмкости.
+
+      Исходный код:
+
+          function CoffeeMachine(power, capacity) {
+            var waterAmount = 0;
+
+            var WATER_HEAT_CAPACITY = 4200;
+
+            function getTimeToBoil() {
+              return waterAmount * WATER_HEAT_CAPACITY * 80 / power;
+            }
+
+            this.setWaterAmount = function(amount) {
+              if (amount < 0) {
+                throw new Error("Значение должно быть положительным");
+              }
+              if (amount > capacity) {
+                throw new Error("Нельзя залить больше, чем " + capacity);
+              }
+
+              waterAmount = amount;
+            };
+
+            function onReady() {
+              alert( 'Кофе готов!' );
+            }
+
+            this.run = function() {
+              setTimeout(onReady, getTimeToBoil());
+            };
+
+          }
+          
+      Вот такой код должен приводить к ошибке:
+
+          var coffeeMachine = new CoffeeMachine(100000, 400);
+          coffeeMachine.addWater(200);
+          coffeeMachine.addWater(100);
+          coffeeMachine.addWater(300); // Нельзя залить больше, чем 400
+          coffeeMachine.run();
+      
+      Результат: [addWater(amount)](https://github.com/Liakhov/Learn-JS/tree/master/main/OOP%20in%20a%20functional%20style/addWater(amount))
+      
+      
