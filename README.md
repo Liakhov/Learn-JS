@@ -1129,3 +1129,29 @@
         alert( applyAll(mul, 2, 3, 4) ); // -> mul(2, 3, 4) = 24
       
       Результат: [applyAll(func, arg1, arg2...)](https://github.com/Liakhov/Learn-JS/tree/master/main/Object%20methods%20and%20call%20context/applyAll(func%2C%20arg1%2C%20arg2...))
+      
+ ## ООП в функциональном стиле
+      
+   + **Написать объект с геттерами и сеттерами**
+  
+        Напишите конструктор User для создания объектов:
+
+       +  С приватными свойствами имя firstName и фамилия surname.
+       
+       +  С сеттерами для этих свойств.
+       
+       +  С геттером getFullName(), который возвращает полное имя.
+
+       Должен работать так:
+
+            function User() {
+              /* ваш код */
+            }
+
+            var user = new User();
+            user.setFirstName("Петя");
+            user.setSurname("Иванов");
+
+            alert( user.getFullName() ); // Петя Иванов
+      
+      Результат: [User(get/set)](https://github.com/Liakhov/Learn-JS/tree/master/main/OOP%20in%20a%20functional%20style/User(get:set))
