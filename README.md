@@ -1134,13 +1134,13 @@
       
    + **Написать объект с геттерами и сеттерами**
   
-        Напишите конструктор User для создания объектов:
+        Напишите конструктор **User** для создания объектов:
 
-       +  С приватными свойствами имя firstName и фамилия surname.
+       +  С приватными свойствами имя **firstName** и фамилия **surname**.
        
        +  С сеттерами для этих свойств.
        
-       +  С геттером getFullName(), который возвращает полное имя.
+       +  С геттером **getFullName()**, который возвращает полное имя.
 
        Должен работать так:
 
@@ -1189,7 +1189,7 @@
       
  + **Добавить публичный метод кофеварке**
       
-      Добавьте кофеварке публичный метод addWater(amount), который будет добавлять воду.
+      Добавьте кофеварке публичный метод **addWater(amount)**, который будет добавлять воду.
 
       При этом, конечно же, должны происходить все необходимые проверки – на положительность и превышение ёмкости.
 
@@ -1234,5 +1234,56 @@
           coffeeMachine.run();
       
       Результат: [addWater(amount)](https://github.com/Liakhov/Learn-JS/tree/master/main/OOP%20in%20a%20functional%20style/addWater(amount))
+      
+  + **Создать сеттер для onReady**
+      
+      Обычно когда кофе готов, мы хотим что-то сделать, например выпить его.
+
+      Сейчас при готовности срабатывает функция **onReady**, но она жёстко задана в коде:
+
+
+          function CoffeeMachine(power, capacity) {
+            var waterAmount = 0;
+
+            var WATER_HEAT_CAPACITY = 4200;
+
+            function getTimeToBoil() {
+              return waterAmount * WATER_HEAT_CAPACITY * 80 / power;
+            }
+
+            this.setWaterAmount = function(amount) {
+              // ... проверки пропущены для краткости
+              waterAmount = amount;
+            };
+
+            this.getWaterAmount = function(amount) {
+              return waterAmount;
+            };
+
+            function onReady() {
+                alert( 'Кофе готов!' );
+              }
+
+            this.run = function() {
+              setTimeout(onReady, getTimeToBoil());
+            };
+
+          }
+        
+       Создайте сеттер **setOnReady**, чтобы код снаружи мог назначить свой **onReady**, вот так:
+
+            var coffeeMachine = new CoffeeMachine(20000, 500);
+            coffeeMachine.setWaterAmount(150);
+
+            coffeeMachine.setOnReady(function() {
+              var amount = coffeeMachine.getWaterAmount();
+              alert( 'Готов кофе: ' + amount + 'мл' ); // Кофе готов: 150 мл
+            });
+
+            coffeeMachine.run();
+            
+       P.S. Значение **onReady** по умолчанию должно быть таким же, как и раньше.
+      
+       Результат: [onReady](https://github.com/Liakhov/Learn-JS/tree/master/main/OOP%20in%20a%20functional%20style/onReady)
       
       
