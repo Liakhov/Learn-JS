@@ -1285,5 +1285,46 @@
        P.S. Значение **onReady** по умолчанию должно быть таким же, как и раньше.
       
        Результат: [onReady](https://github.com/Liakhov/Learn-JS/tree/master/main/OOP%20in%20a%20functional%20style/onReady)
+       
+       
+# Документ, события, интерфейсы
+
+  ## Документ и объекты страницы
+       
+   + **DOM children**
+       
+       Для страницы:
+
+          <!DOCTYPE HTML>
+          <html>
+
+          <head>
+            <meta charset="utf-8">
+          </head>
+
+          <body>
+            <div>Пользователи:</div>
+            <ul>
+              <li>Маша</li>
+              <li>Вовочка</li>
+            </ul>
+
+            <!-- комментарий -->
+
+            <script>
+              // ... ваш код
+            </script>
+
+          </body>
+
+          </html>
+          
+      + Напишите код, который получит элемент **HEAD**.
+        
+      + Напишите код, который получит **UL**.
+
+      +  Напишите код, который получит второй **LI**. Будет ли ваш код работать в IE8-, если комментарий переместить между элементами **LI**?
+       
+       Результат: [DOM Children](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/DOM%20Children)
       
       
