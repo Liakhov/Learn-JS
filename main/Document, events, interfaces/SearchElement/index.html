@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <form name="search">
+    <label>Поиск по сайту:
+      <input type="text" name="search">
+    </label>
+    <input type="submit" value="Искать!">
+  </form>
+
+  <hr>
+
+  <form name="search-person">
+    Поиск по посетителям:
+    <table id="age-table">
+      <tr>
+        <td>Возраст:</td>
+        <td id="age-list">
+          <label>
+            <input type="radio" name="age" value="young">до 18</label>
+          <label>
+            <input type="radio" name="age" value="mature">18-50</label>
+          <label>
+            <input type="radio" name="age" value="senior">более 50</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Дополнительно:</td>
+        <td>
+          <input type="text" name="info[0]">
+          <input type="text" name="info[1]">
+          <input type="text" name="info[2]">
+        </td>
+      </tr>
+
+    </table>
+
+    <input type="submit" value="Искать!">
+  </form>
+  <script>
+    var labelTag = document.getElementById('age-table').getElementsByTagName('label'),
+        firstTd = document.getElementById('age-table').rows[0].cells[0],
+        secondForm = document.getElementsByTagName('form')[1],
+        searchForm = document.querySelector('form[name="search"]'),
+        searchInput = document.querySelectorAll('form[name="search"] input'),
+        infoByName = document.getElementsByName("info[0]")[0],
+        searchPerson = document.querySelector('form[name="search-person"] [name="info[0]"]');
+    console.log(labelTag);
+    console.log(firstTd);
+    console.log(secondForm);
+    console.log(searchForm);
+    console.log(searchInput);
+    console.log(infoByName);
+    console.log(searchPerson);
+  </script>
+</body>
+
+</html>
