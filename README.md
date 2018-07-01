@@ -1285,5 +1285,55 @@
        P.S. Значение **onReady** по умолчанию должно быть таким же, как и раньше.
       
        Результат: [onReady](https://github.com/Liakhov/Learn-JS/tree/master/main/OOP%20in%20a%20functional%20style/onReady)
+
+  ## Документ и объекты страницы
+       
+   + **DOM children**
+       
+       Для страницы:
+
+          <!DOCTYPE HTML>
+          <html>
+
+          <head>
+            <meta charset="utf-8">
+          </head>
+
+          <body>
+            <div>Пользователи:</div>
+            <ul>
+              <li>Маша</li>
+              <li>Вовочка</li>
+            </ul>
+
+            <!-- комментарий -->
+
+            <script>
+              // ... ваш код
+            </script>
+
+          </body>
+
+          </html>
+          
+      + Напишите код, который получит элемент **HEAD**.
+        
+      + Напишите код, который получит **UL**.
+
+      +  Напишите код, который получит второй **LI**. Будет ли ваш код работать в IE8-, если комментарий переместить между элементами **LI**?
+       
+       Результат: [DOM Children](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/DOM%20Children)
+       
+  
+  + **Выделите ячейки по диагонали**   
+       
+       Напишите код, который выделит все ячейки в таблице по диагонали.
+
+       Вам нужно будет получить из таблицы **table** все диагональные **td** и выделить их, используя код:
+
+          // в переменной td DOM-элемент для тега <td>
+          td.style.backgroundColor = 'red';
+       
+       Результат: [TableCellsBackgoundRed](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/TableCellsBackgoundRed)
       
       
