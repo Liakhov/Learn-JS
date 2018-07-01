@@ -1360,15 +1360,15 @@
 
        Результат: [SearchElement](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/SearchElement)
        
-  + **Дерево**
+   + **Дерево**
         
-       Есть дерево из тегов <ul>/<li>.
+       Есть дерево из тегов ul,li.
 
-       Напишите код, который для каждого элемента <li> выведет:
+       Напишите код, который для каждого элемента li выведет:
 
        1. Текст непосредственно в нём (без подразделов).
         
-       2. Количество вложенных в него элементов <li> – всех, с учётом вложенных.
+       2. Количество вложенных в него элементов li – всех, с учётом вложенных.
        
        Результат: [Tree](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Tree)
       
