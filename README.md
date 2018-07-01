@@ -1359,5 +1359,17 @@
       Используйте для этого консоль браузера, открыв страницу table.html в отдельном окне.     
 
        Результат: [SearchElement](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/SearchElement)
+       
+  + **Дерево**
+        
+       Есть дерево из тегов <ul>/<li>.
+
+       Напишите код, который для каждого элемента <li> выведет:
+
+        + Текст непосредственно в нём (без подразделов).
+        
+        + Количество вложенных в него элементов <li> – всех, с учётом вложенных.
+       
+       Результат: [Tree](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Tree)
       
       
