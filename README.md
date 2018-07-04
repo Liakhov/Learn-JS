@@ -1371,5 +1371,48 @@
        2. Количество вложенных в него элементов li – всех, с учётом вложенных.
        
        Результат: [Tree](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Tree)
+       
+   + **Получите пользовательский атрибут**
+       
+       + Получите div в переменную.
+       + Получите значение атрибута "data-widget-name" в переменную.
+       + Выведите его.
+       
+       Документ:
+       
+            <body>
+
+              <div id="widget" data-widget-name="menu">Выберите жанр</div>
+
+              <script>
+                /* ... */
+              </script>
+            </body>
+       
+       Результат: [DataAttribute](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/DataAttribute)
+       
+   + **Поставьте класс ссылкам**
+  
+       Сделайте желтыми внешние ссылки, добавив им класс external.
+
+       Все ссылки без **href**, без протокола и начинающиеся с **http://internal.com** считаются внутренними.
+       
+                <style>
+                  .external {
+                    background-color: yellow
+                  }
+                </style>
+
+                <a name="list">список</a>
+                <ul>
+                  <li><a href="http://google.com">http://google.com</a></li>
+                  <li><a href="/tutorial">/tutorial.html</a></li>
+                  <li><a href="local/path">local/path</a></li>
+                  <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+                  <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+                  <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+                </ul>
+
+       Результат:[ClassExternal](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/ClassExternal)
       
       
