@@ -1473,4 +1473,21 @@
        
        Результат: [timeSetInterval](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/timeSetInterval)
       
+   + **Создать список**
+       
+       Напишите интерфейс для создания списка.
+
+       Для каждого пункта:
+
+       + Запрашивайте содержимое пункта у пользователя с помощью prompt.
+       
+       + Создавайте пункт и добавляйте его к UL.
+       
+       + Процесс прерывается, когда пользователь нажимает ESC или вводит пустую строку.
+      
+       **Все элементы должны создаваться динамически.**
+
+       Если посетитель вводит теги – пусть в списке они показываются как обычный текст.
+      
+       Результат: [createList](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/createList)
       
