@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+    <h2>Создание списка</h2>
+
+  <script>
+      var ul = document.createElement('ul');
+      document.body.insertBefore(ul, document.body.lastChild);
+
+      while(true){
+        var contentText = prompt('Введите елемент списка', '');
+        if(!contentText){
+          break;
+        }
+
+        var li = document.createElement('li');
+        li.appendChild(document.createTextNode(contentText));
+        ul.appendChild(li);
+      }
+
+  </script>
+
+</body>
+</html>
