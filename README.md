@@ -1414,5 +1414,63 @@
                 </ul>
 
        Результат:[ClassExternal](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/ClassExternal)
+       
+   + **insertAfter**
+       
+       Напишите функцию **insertAfter(elem, refElem)**, которая добавит **elem** после узла **refElem**.
+
+          <div>Это</div>
+          <div>Элементы</div>
+
+          <script>
+            var elem = document.createElement('div');
+            elem.innerHTML = '<b>Новый элемент</b>';
+
+            function insertAfter(elem, refElem) { /* ваш код */ }
+
+            var body = document.body;
+
+            // вставить elem после первого элемента
+            insertAfter(elem, body.firstChild); // <--- должно работать
+
+            // вставить elem за последним элементом
+            insertAfter(elem, body.lastChild); // <--- должно работать
+          </script>
+       
+       Результат: [insertAfter](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/insertAfter)
+    
+   + **removeChildren**
+
+       Напишите функцию **removeChildren**, которая удаляет всех потомков элемента.
+
+            <table id="table">
+              <tr>
+                <td>Это</td>
+                <td>Все</td>
+                <td>Элементы DOM</td>
+              </tr>
+            </table>
+
+            <ol id="ol">
+              <li>Вася</li>
+              <li>Петя</li>
+              <li>Маша</li>
+              <li>Даша</li>
+            </ol>
+
+            <script>
+              function removeChildren(elem) { /* ваш код */ }
+
+              removeChildren(table); // очищает таблицу
+              removeChildren(ol); // очищает список
+            </script>
+           
+       Результат: [removeChildren](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/removeChildren)
+   
+   + **Часики с использованием "setInterval"**
+
+       Создайте цветные часики
+       
+       Результат: [timeSetInterval](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/timeSetInterval)
       
       
