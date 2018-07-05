@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <span id="hours">0</span>
+  <span>:</span>
+  <span id="minutes">0</span>
+  <span>:</span>
+  <span id="secund">0</span>
+
+
+
+  <script>
+
+    function timer(){
+      var date = new Date();
+      var sec = date.getSeconds();
+      var minutes = date.getMinutes();
+      var hours = date.getHours();
+
+      if(minutes < 10){
+        minutes = "0" + minutes;
+      }
+      if(sec < 10){
+        sec = "0" + sec;
+      }
+      if(hours < 10){
+        hours = "0" + hours;
+      }
+      document.querySelector('#secund').innerHTML = sec;
+      document.querySelector('#minutes').innerHTML = minutes;
+      document.querySelector('#hours').innerHTML = hours;
+    }
+    setInterval(timer, 100);
+
+  </script>
+
+</body>
+
+</html>
