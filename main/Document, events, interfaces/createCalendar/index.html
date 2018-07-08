@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style media="screen">
+  table{
+    border-collapse: collapse;
+  }
+  thead{
+    background-color: #fc0;
+  }
+    td{
+      padding: 5px 10px;
+      border: 1px solid black;
+      height: 25px;
+    }
+  </style>
+</head>
+<body>
+
+  <script>
+    function createTable(year, mounth){
+      var table = document.createElement('table');
+      table.innerHTML = '<thead> <td>Пн</td> <td>Вт</td> <td>Cр</td> <td>Чт</td> <td>Пт</td> <td>Сб</td> <td>Нд</td> </thead>';
+      document.body.insertBefore(table, document.body.firstChild);
+
+      var date = new Date(year, mounth - 1);
+        // Додаємо пусті клітинки
+        var emtyDay = date.getDay() - 1;
+        if(emtyDay == '-1'){
+          emtyDay = 6;
+        }
+        for(var i = 0; i < emtyDay; i++){
+          var td = document.createElement('td');
+          td.innerHTML = '';
+          table.appendChild(td);
+        }
+        //додаємо числа
+        var day = date.getDate();
+        var lastDay = new Date(year, mounth, day - 1);
+        var last = lastDay.getDate();
+
+        for(var j = 1; j <= last; j++){
+          var numberDay = document.createElement('td');
+          var tr = document.createElement('tr');
+
+          var numberTd = table.getElementsByTagName('td');
+          if(numberTd.length % 7 == '0'){
+            table.appendChild(tr);
+          }
+          numberDay.innerHTML = j;
+          table.appendChild(numberDay);
+
+          date.setDate(date.getDate() + 1);
+        }
+    }
+    createTable(2018, 7);
+  </script>
+
+</body>
+</html>
