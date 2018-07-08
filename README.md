@@ -1561,5 +1561,13 @@
       Такой вызов должен генерировать текст для календаря месяца month в году year, а затем помещать его внутрь элемента с указанным id.
 
       Например: createCalendar("cal", 2012, 9) сгенерирует в <div id=„cal“></div> следующий календарь:
+      
+      пн	вт	ср	чт	пт	сб	вс
+                           1   2
+      3	  4	   5	 6	 7	 8	 9
+      10	11	12	13	14	15	16
+      17	18	19	20	21	22	23
+      24	25	26	27	28	29	30
+
      
       Результат: [createCalendar](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/createCalendar)
