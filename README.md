@@ -1549,3 +1549,17 @@
                   Морская форель
       
       Результат: [numberLi](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/numberLi)
+     
+   + **Создать календарь в виде таблицы**
+      
+      Напишите функцию, которая умеет генерировать календарь для заданной пары (месяц, год).
+
+      Календарь должен быть таблицей, где каждый день – это TD. У таблицы должен быть заголовок с названиями дней недели, каждый день – TH.
+
+      Синтаксис: **createCalendar(id, year, month)**.
+
+      Такой вызов должен генерировать текст для календаря месяца month в году year, а затем помещать его внутрь элемента с указанным id.
+
+      Например: createCalendar("cal", 2012, 9) сгенерирует в <div id=„cal“></div> следующий календарь:
+     
+      Результат: [createCalendar](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/createCalendar)
