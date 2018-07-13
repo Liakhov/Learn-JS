@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Beutiful link</title>
+</head>
+<body>
+
+
+
+  <script>
+    document.body.innerHTML = '<a class="button" href="/">Нажми меня</a>';
+
+    var link = document.body.getElementsByClassName('button')[0];
+    link.style.color = 'red';
+    link.style.display = 'block';
+    link.style.width = '100px';
+    link.style.height = '30px';
+    link.style.lineHeight = '30px';
+    link.style.textDecoration = 'none';
+    link.style.fontWeight = 'bold';
+    link.style.textAlign = 'center';
+    link.style.border = '2px groove green';
+    link.style.borderRadius = link.style.WebkitBorderRadius = link.style.MozBorderRadius = '8px';
+
+  </script>
+
+</body>
+</html>
