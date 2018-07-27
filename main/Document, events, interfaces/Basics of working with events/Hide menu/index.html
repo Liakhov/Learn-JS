@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hide menu</title>
+  <style>
+    #pButton{
+      cursor: pointer;
+    }
+    .menu li{
+      list-style: none;
+      display: none;
+    }
+    .listHide li{
+      display: block;
+    }
+    #badge{
+      color: green;
+    }
+    .badgeRotate{
+      display: inline-block;
+      color: green;
+      transform: rotate(90deg);
+      transition: 0.2s;
+    }
+
+  </style>
+  <body>
+
+    <p id='pButton'><span id='badge'>▶</span> Сладости (нажми меня)!</p>
+    <ul id='hideList' class="menu">
+      <li>Торт</li>
+      <li>Пончик</li>
+      <li>Пирожное</li>
+    </ul>
+
+    <script>
+      function hideLists(){
+        hideList.classList.toggle('listHide');
+      };
+      function rotateBadges(){
+        badge.classList.toggle("badgeRotate");
+      };
+      pButton.addEventListener('click', hideLists);
+      pButton.addEventListener('click', rotateBadges);
+
+
+   </script>
+</body>
+</html>
