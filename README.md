@@ -1600,3 +1600,29 @@
       P.P.S. Если предположить, что у нас заранее есть массив данных для таблицы в JavaScript – что быстрее: отсортировать эту таблицу или сгенерировать новую?
         
       Результат: [tableSort](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/tableSort)
+      
+ + **Скругленая кнопка со стилями из JavaScript**
+      
+      Создайте кнопку в виде элемента **a** с заданным стилем, используя **JavaScript**.
+
+      В примере ниже такая кнопка создана при помощи HTML/CSS. В вашем решении кнопка должна создаваться, настраиваться и добавляться в документ при помощи только **JavaScript**, без тегов **style** и **a**.
+  
+           <style>
+              .button {
+                -moz-border-radius: 8px;
+                -webkit-border-radius: 8px;
+                border-radius: 8px;
+                border: 2px groove green;
+                display: block;
+                height: 30px;
+                line-height: 30px;
+                width: 100px;
+                text-decoration: none;
+                text-align: center;
+                color: red;
+                font-weight: bold;
+              }
+            </style>
+
+            <a class="button" href="/">Нажми меня</a>
+      Результат: [beautiful link](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/beautiful%20link)
