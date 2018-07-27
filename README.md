@@ -1650,7 +1650,7 @@
   
      Результат: [Hide menu](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/Hide%20menu) 
      
-   + **Спрятать сообщение
+   + **Спрятать сообщение**
 
      Есть список сообщений. Добавьте каждому сообщению по кнопке для его скрытия.  
      
