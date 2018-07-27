@@ -1655,3 +1655,9 @@
      Есть список сообщений. Добавьте каждому сообщению по кнопке для его скрытия.  
      
      Результат: [Hide message](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/Hide%20message)
+     
+   + **Карусель**
+
+     Напишите «Карусель» – ленту изображений, которую можно листать влево-вправо нажатием на стрелочки.  
+     
+     Результат: [Carousel](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/Carousel)
