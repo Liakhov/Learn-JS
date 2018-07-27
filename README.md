@@ -1626,3 +1626,20 @@
 
             <a class="button" href="/">Нажми меня</a>
       Результат: [beautiful link](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/beautiful%20link)
+      
+
+## Основы работы с событиями
+
+  + **Спрятать при клике**  
+  
+      Используя JavaScript, сделайте так, чтобы при клике на кнопку исчезал элемент с id="text".    
+      
+      
+      Результат: [hide by click](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/hide%20by%20click)
+      
+  + **Спрятаться
+      
+      Создайте кнопку, при клике на которую, она будет скрывать сама себя.   
+      
+      Результат: [hide yourself when you click](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/hide%20yourself%20when%20you%20click)
+      
