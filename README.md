@@ -1322,7 +1322,7 @@
 
       +  Напишите код, который получит второй **LI**. Будет ли ваш код работать в IE8-, если комментарий переместить между элементами **LI**?
        
-       Результат: [DOM Children](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/DOM%20Children)
+       Результат: [DOM Children](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/DOM%20Children)
        
   
   + **Выделите ячейки по диагонали**   
@@ -1334,7 +1334,7 @@
           // в переменной td DOM-элемент для тега <td>
           td.style.backgroundColor = 'red';
        
-       Результат: [TableCellsBackgoundRed](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/TableCellsBackgoundRed)
+       Результат: [TableCellsBackgoundRed](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/TableCellsBackgoundRed)
        
   + **Поиск элементов**
   
@@ -1358,7 +1358,7 @@
       
       Используйте для этого консоль браузера, открыв страницу table.html в отдельном окне.     
 
-       Результат: [SearchElement](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/SearchElement)
+       Результат: [SearchElement](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/SearchElement)
        
    + **Дерево**
         
@@ -1370,7 +1370,7 @@
         
        2. Количество вложенных в него элементов li – всех, с учётом вложенных.
        
-       Результат: [Tree](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Tree)
+       Результат: [Tree](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/Tree)
        
    + **Получите пользовательский атрибут**
        
@@ -1389,7 +1389,7 @@
               </script>
             </body>
        
-       Результат: [DataAttribute](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/DataAttribute)
+       Результат: [DataAttribute](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/DataAttribute)
        
    + **Поставьте класс ссылкам**
   
@@ -1413,7 +1413,7 @@
                   <li><a href="http://internal.com/test">http://internal.com/test</a></li>
                 </ul>
 
-       Результат:[ClassExternal](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/ClassExternal)
+       Результат:[ClassExternal](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/ClassExternal)
        
    + **insertAfter**
        
@@ -1437,7 +1437,7 @@
             insertAfter(elem, body.lastChild); // <--- должно работать
           </script>
        
-       Результат: [insertAfter](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/insertAfter)
+       Результат: [insertAfter](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/insertAfter)
     
    + **removeChildren**
 
@@ -1465,13 +1465,13 @@
               removeChildren(ol); // очищает список
             </script>
            
-       Результат: [removeChildren](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/removeChildren)
+       Результат: [removeChildren](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/removeChildren)
    
    + **Часики с использованием "setInterval"**
 
        Создайте цветные часики
        
-       Результат: [timeSetInterval](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/timeSetInterval)
+       Результат: [timeSetInterval](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/timeSetInterval)
       
    + **Создать список**
        
@@ -1489,7 +1489,7 @@
 
        Если посетитель вводит теги – пусть в списке они показываются как обычный текст.
       
-       Результат: [createList](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/createList)
+       Результат: [createList](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/createList)
        
   + **Содайте дерево из объекта**
       
@@ -1521,7 +1521,7 @@
        
        createTree(container, data); // создаёт
        
-     Результат:  [listObj](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/listObj)
+     Результат:  [listObj](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/listObj)
      
  + **Дерево**
  
@@ -1548,7 +1548,7 @@
              + Морские [1]
                   Морская форель
       
-      Результат: [numberLi](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/numberLi)
+      Результат: [numberLi](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/numberLi)
      
  + **Создать календарь в виде таблицы**
       
@@ -1570,7 +1570,7 @@
           24	25	26	27	28	29	30
 
      
-      Результат: [createCalendar](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/createCalendar)
+      Результат: [createCalendar](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/createCalendar)
       
   + **Вставьте элементы в конец списка**
 
@@ -1585,7 +1585,7 @@
             <li>2</li>
           </ul>  
       
-      Результат: [insertAdjacentHTML](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/insertAdjacentHTML)
+      Результат: [insertAdjacentHTML](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/insertAdjacentHTML)
  
  + **Отсортировать таблицу**
  
@@ -1599,7 +1599,7 @@
 
       P.P.S. Если предположить, что у нас заранее есть массив данных для таблицы в JavaScript – что быстрее: отсортировать эту таблицу или сгенерировать новую?
         
-      Результат: [tableSort](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/tableSort)
+      Результат: [tableSort](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/tableSort)
       
  + **Скругленая кнопка со стилями из JavaScript**
       
@@ -1625,7 +1625,7 @@
             </style>
 
             <a class="button" href="/">Нажми меня</a>
-      Результат: [beautiful link](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/beautiful%20link)
+      Результат: [beautiful link](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Document%20and%20page%20objects/beautiful%20link)
       
 
 ## Основы работы с событиями
@@ -1637,7 +1637,7 @@
       
       Результат: [hide by click](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/hide%20by%20click)
       
-  + **Спрятаться
+  + **Спрятаться**
       
       Создайте кнопку, при клике на которую, она будет скрывать сама себя.   
       
