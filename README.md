@@ -1692,3 +1692,19 @@
         
     
       Результат: [Hiding a message with delegation](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/Hiding%20a%20message%20with%20delegation)
+      
+  + **Раскрывающееся дерево**
+      
+      Создайте дерево, которое по клику на заголовок скрывает-показывает детей
+      
+      Требования:
+
+        + Использовать делегирование.
+
+        + Клик вне текста заголовка (на пустом месте) ничего делать не должен.
+
+        + При наведении на заголовок – он становится жирным, реализовать через CSS.
+        
+       P.S. При необходимости HTML/CSS дерева можно изменить.
+       
+       Результат: [Expandable tree](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/Expandable%20tree)
