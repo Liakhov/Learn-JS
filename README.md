@@ -1684,11 +1684,11 @@
   
     Результат: [Move ball over the field](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/Move%20Ball%20over%20the%20fields)  
     
-    + **Скрытие сообщения с помощью делегирования**
+  + **Скрытие сообщения с помощью делегирования**
       
-      Дан список сообщений. Добавьте каждому сообщению кнопку для его удаления.
+     Дан список сообщений. Добавьте каждому сообщению кнопку для его удаления.
 
-      **Используйте делегирование событий. Один обработчик для всего.**
+    **Используйте делегирование событий. Один обработчик для всего.**
         
     
       Результат: [Hiding a message with delegation](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/Hiding%20a%20message%20with%20delegation)
