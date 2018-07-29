@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Football field</title>
+  <link rel="stylesheet" href="style.css">
+<body style="height:2000px">
+
+    Кликните на любое место поля, чтобы мяч перелетел туда.
+    <br> Мяч никогда не вылетит за границы поля.
+
+
+    <div id="field">
+      <img src="https://js.cx/clipart/ball.svg" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+      . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+    </div>
+    <script>
+      field.onclick = function(event){
+
+        var topCordinates = field.getBoundingClientRect();
+
+        function resultX(){
+          var resultVertical = event.clientY - topCordinates.top - ball.clientHeight/2 - field.clientTop;
+          if(resultVertical < field.clientTop) resultVertical = 0;
+          else if(event.clientY > (topCordinates.bottom - field.clientTop - ball.clientHeight/2)) resultVertical = (field.clientHeight - field.clientTop * 2 - ball.clientHeight/2);
+          return resultVertical;
+        }
+        function resultY(){
+          var resultHorizontal = event.clientX - topCordinates.left - ball.clientWidth/2 - field.clientLeft;
+          if(resultHorizontal < field.clientLeft) resultHorizontal = 0;
+          else if(event.clientX > (topCordinates.right - field.clientLeft - ball.clientWidth/2)) resultHorizontal = (field.clientWidth - field.clientLeft * 2 - ball.clientWidth/2);
+          return resultHorizontal;
+        }
+
+        ball.style.top = resultX() + 'px';
+        ball.style.left = resultY() + 'px';
+        ball.style.transitionDuration = '0.3s';
+      }
+    </script>
+</body>
+</html>
