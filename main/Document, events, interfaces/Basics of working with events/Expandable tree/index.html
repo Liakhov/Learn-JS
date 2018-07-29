@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tree</title>
+  <style>
+  li{
+    cursor: pointer;
+  }
+  span:hover{
+    font-weight: bold;
+  }
+  .hiddenClass{
+    display: none;
+  }
+  </style>
+<body>
+
+  <ul id="tree">
+    <li>Животные
+      <ul>
+        <li>Млекопитающие
+          <ul>
+            <li>Коровы</li>
+            <li>Ослы</li>
+            <li>Собаки</li>
+            <li id='tiger'>Тигры</li>
+          </ul>
+        </li>
+        <li>Другие
+          <ul>
+            <li>Змеи</li>
+            <li>Птицы</li>
+            <li>Ящерицы</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Рыбы
+      <ul>
+        <li>Аквариумные
+          <ul>
+            <li>Гуппи</li>
+            <li>Скалярии</li>
+          </ul>
+
+        </li>
+        <li>Морские
+          <ul>
+            <li>Морская форель</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+
+  <script>
+  var ul = document.getElementById('tree');
+  var li = ul.querySelectorAll('li');
+
+  for(var i = 0; i < li.length; i++){
+    var itemLi = li[i];
+    var span = document.createElement('span');
+    itemLi.insertBefore(span, itemLi.firstChild);
+    span.appendChild(span.nextSibling);
+  }
+
+  ul.onclick = function(event){
+    var childLi = event.target.parentNode.querySelectorAll('ul')[0];
+    if(childLi) childLi.classList.toggle("hiddenClass");
+    return;
+  }
+  </script>
+</body>
+</html>
