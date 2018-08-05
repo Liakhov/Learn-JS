@@ -1708,3 +1708,19 @@
        P.S. При необходимости HTML/CSS дерева можно изменить.
        
        Результат: [Expandable tree](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/Expandable%20tree)
+       
+   + **Сортировка таблицы**
+       
+       Сделать сортировку таблицы при клике на заголовок.
+       
+       Требования:
+
+        + Использовать делегирование.
+        
+        + Код не должен меняться при увеличении количества столбцов или строк.
+        
+        P.S. Обратите внимание, тип столбца задан атрибутом у заголовка. Это необходимо, ведь числа сортируются иначе чем строки. Соответственно, код это может использовать.
+
+        P.P.S. Вам помогут дополнительные навигационные ссылки по таблицам.
+         
+       Результат: [sort table on click](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/sort%20table%20on%20click)
