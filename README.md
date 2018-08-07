@@ -1753,3 +1753,15 @@
         Плюс этого подхода – динамически добавленные в DOM позже элементы автоматически получат этот функционал.
         
         Результат: [Help](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/Help)
+        
+   + **Поймайте переход по ссылке**
+        
+        Сделайте так, чтобы при клике на ссылки внутри элемента #contents пользователю выводился вопрос о том, действительно ли он хочет покинуть страницу и если он не хочет, то прерывать переход по ссылке.
+
+        Детали:
+
+        + Содержимое #contents может быть загружено динамически и присвоено при помощи innerHTML. Так что найти все ссылки и поставить на них обработчики нельзя. Используйте делегирование.
+
+        + Содержимое может содержать вложенные теги, в том числе внутри ссылок, например, <a href=".."><i>...</i></a>
+        
+        Результат: [question before the transition](https://github.com/Liakhov/Learn-JS/tree/master/main/Document%2C%20events%2C%20interfaces/Basics%20of%20working%20with%20events/question%20before%20the%20transition)
